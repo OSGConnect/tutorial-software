@@ -43,7 +43,7 @@ words.sh is the auxiliary script to run the job:
 tar xzf words.tar.gz
 cat random_words | ./distribution
 ```
-Here is the submit file *words.submit*. Note that HTCondor allows to specify an URL as input file and it will download it for you. **Substitute your user name for marco in the transfer_input_files line:**
+Here is the submit file *words.submit*. Note that HTCondor allows you to specify an URL as input file and it will download it for you. **Substitute your user name for marco in the transfer_input_files line:**
 ```
 ########################
 # Submit description file for short test program using http transfer
