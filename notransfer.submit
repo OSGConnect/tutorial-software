@@ -1,0 +1,13 @@
+########################
+# Submit description file for short test program using remote executable
+########################
+Universe       = vanilla
+Executable     = /usr/local/bin/lsm-df
+# Uncomment the following line to use the remote eecutable
+#transfer_executable = False
+Error   = log/notransfer.err.$(Cluster)-$(Process)
+Output  = log/notransfer.out.$(Cluster)-$(Process)
+Log     = log/notransfer.log.$(Cluster)
+Requirements = regexp("uct2-c*", Machine)
++ProjectName="ConnectTrain"
+Queue 
