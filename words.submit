@@ -11,6 +11,6 @@ Log     = log/words.log.$(Cluster)
 should_transfer_files = YES
 transfer_input_files = http://stash.osgconnect.net/+sthapa/words.tar.gz
 when_to_transfer_output = ON_EXIT
-+ProjectName="ConnectTrain"
+# +ProjectName="ConnectTrain"
 Queue 5
 
