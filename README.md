@@ -39,26 +39,26 @@ words.sh is the auxiliary script to run the job:
 ```bash
 #!/bin/bash
 # HTCondor will transfer the file for us. Uncomment the following if you prefer to transfer form the script
-# wget --no-check-certificate http://stash.osgconnect.net/+marco/words.tar.gz
+# wget --no-check-certificate http://stash.osgconnect.net/+username/words.tar.gz
 tar xzf words.tar.gz
 cat random_words | ./distribution
 ```
-Here is the submit file *words.submit*. Note that HTCondor allows you to specify an URL as input file and it will download it for you. **Substitute your user name for marco in the transfer_input_files line:**
+Here is the submit file *transfer.submit*. Note that HTCondor allows you to specify an URL as input file and it will download it for you. **Substitute your user name for username in the transfer_input_files line:**
 ```
 ########################
 # Submit description file for short test program using http transfer
 ########################
 Universe       = vanilla
-Executable     = words.sh
+Executable     = app_script.sh
 # Uncomment the following line to use the remote eecutable
 #transfer_executable = False
 Error   = log/words.err.$(Cluster)-$(Process)
 Output  = log/words.out.$(Cluster)-$(Process)
 Log     = log/words.log.$(Cluster)
 should_transfer_files = YES
-transfer_input_files = http://stash.osgconnect.net/+marco/words.tar.gz
+transfer_input_files = http://stash.osgconnect.net/+username/words.tar.gz
 when_to_transfer_output = ON_EXIT
-+ProjectName="ConnectTrain"
+#+ProjectName="ConnectTrain"
 Queue 5
 ```
 Submit the job:
