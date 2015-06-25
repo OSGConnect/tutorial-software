@@ -1,5 +1,5 @@
-Software access using HTCondor or the Web
-=========================================
+[title]: - "Software access using HTCondor or the Web"
+
 
 Overview
 --------
