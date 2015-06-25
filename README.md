@@ -3,7 +3,7 @@
 
 Overview
 --------
-This module will illustrate how software can be transferred and accessed in OSG Connect. Different methods to access software without transferring it are described in [Distributed software access using the OASIS service](https://confluence.grid.iu.edu/display/CON/Software+access+using+OASIS) and [Software access using OASIS and Parrot](https://confluence.grid.iu.edu/display/CON/Software+access+using+OASIS+and+Parrot). 
+This module will illustrate how software can be transferred and accessed in OSG Connect. Different methods to access software without transferring it are described in [Distributed software access using the OASIS service](http://support.opensciencegrid.org/support/solutions/articles/5000634394).
 
 In the section OSG Connect Data, you have seen the same mechanisms used to transfer data. The techniques and the recommendation are the same, e.g. use HTCondor 's built-in transfer mechanisms only for relatively small amounts of data and binaries to transfer (<100MB) or if you need to do ad-hoc job submissions.
 
