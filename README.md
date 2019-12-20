@@ -74,4 +74,4 @@ Once the jobs are completed, you can look at the output in the logs directory an
 	Alcatraz   |41 (0.40%) ++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ## Getting Help
-For assistance or questions, please email the OSG User Support team  at `user-support@opensciencegrid.org` or visit the [help desk and community forums](http://support.opensciencegrid.org).
+For assistance or questions, please email the OSG User Support team  at `support@opensciencegrid.org` or visit the [help desk and community forums](http://support.opensciencegrid.org).
