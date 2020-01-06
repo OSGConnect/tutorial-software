@@ -10,5 +10,4 @@ Output  = log/filetest.out.$(Cluster)-$(Process)
 Log     = log/filetest.log.$(Cluster)
 should_transfer_files = YES
 transfer_input_files = /usr/bin/file
-+ProjectName="ConnectTrain"
 Queue 50

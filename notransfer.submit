@@ -9,5 +9,4 @@ Error   = log/notransfer.err.$(Cluster)-$(Process)
 Output  = log/notransfer.out.$(Cluster)-$(Process)
 Log     = log/notransfer.log.$(Cluster)
 Requirements = regexp("uct2-c*", Machine)
-+ProjectName="ConnectTrain"
 Queue 
