@@ -38,7 +38,7 @@ program on the input file:
 	#!/bin/bash
 
 	tar xzf words.tar.gz
-	cat random_words | ./distribution
+	cat random_words | ./stats/distribution
 
 
 Transferring Software Via HTCondor File Transfer
